@@ -1,0 +1,208 @@
+#food-main *{box-sizing: border-box;}
+#food-banner{
+	width:100%;
+	height:340px;
+}
+.banner{
+	width:1000px;
+	height:340px;
+	position: relative;
+	margin:0 auto;
+	cursor: pointer;
+}
+.banner img{
+	position: absolute;
+}
+/*精品推荐*/
+#food-main{
+	width:100%;
+}
+.nice-food{
+	width:1000px;
+	height:417px;
+	margin:0 auto;
+}
+.nice-food h2{
+	width:100%;
+	height:65px;
+	border-bottom:2px solid #666;
+}
+.nice-food h2 p{
+	float:left;
+	margin-top:30px;
+	height:22px;
+	line-height: 22px;
+}
+.nice-food h2 p i{
+	width:56px;
+	float:left;
+	color:#F70800;
+	font-size:22px;
+	height:22px;
+	font-weight: bold;
+	border-left:4px solid #F70800;
+	padding-left:8px;
+}
+.nice-food h2 p em{
+	font-size:22px;
+	float:left;
+	font-weight: bold;
+	margin-right:10px;
+}
+.nice-food h2 p b{
+	font-size:16px;
+	color:#666;
+}
+.nice-food h2 ul{
+	float:right;
+	margin-top:36px;
+}
+.nice-food h2 ul li{
+	float:left;
+	padding:0 10px;
+	border-right:1px solid #222;
+}
+.nice-food h2 ul li:nth-of-type(3){
+	border-right:none;
+}
+.nice-food h2 ul li a{
+	color:#222;
+	font-size:12px;
+}
+.nice-food h2 ul li a:hover{
+	text-decoration: underline;
+}
+.nice-food .nice-food-con{
+	width:100%;
+	height:352px;
+}
+.food-left{
+	width:322px;
+	height:352px;
+	border:1px solid #f2f2f2;
+	cursor: pointer;
+	float:left;
+}
+.food-left img{
+	width:100%;
+	height:100%;
+}
+.food-center1{
+	width:226px;
+	height:100%;
+	float:left;
+}
+.food-center1 div{
+	width:226px;
+	height:175px;
+	border:1px solid #F2F2F2;
+}
+.food-center1 div:nth-of-type(2){
+	height:176px;
+	border:1px solid #F2F2F2;
+}
+.food-center1 div img{
+	width:100%;
+	height:100%;
+}
+.food-center2{
+	width:226px;
+	height:100%;
+	border-right:1px solid #F2F2F2;
+	float:left;
+}.food-right{
+	background:#fff;
+	float:left;
+	width:226px;
+	height:100%;
+}
+/*今日食品*/
+.now-food{
+	width:1000px;
+	margin:0 auto;
+}
+.now-food h2{
+	width:100%;
+	height:65px;
+	border-bottom:2px solid #666;
+	margin-bottom: 11px;
+}
+.now-food h2 p{
+	float:left;
+	margin-top:30px;
+	height:22px;
+	line-height: 22px;
+}
+.now-food h2 p i{
+	width:56px;
+	float:left;
+	color:#F70800;
+	font-size:22px;
+	height:22px;
+	font-weight: bold;
+	border-left:4px solid #F70800;
+	padding-left:8px;
+}
+.now-food h2 p em{
+	font-size:22px;
+	float:left;
+	font-weight: bold;
+	margin-right:10px;
+}
+.now-food h2 p b{
+	font-size:16px;
+	color:#666;
+}
+.now-food-con{
+	width:100%;
+	overflow: hidden;
+}
+.now-food-con dl{
+	width:320px;
+	height:454px;
+	border:1px solid #ddd;
+	background:#fff;
+	padding:10px;
+	margin: 0 20px 20px 0;
+	float:left;
+}
+.now-food-con dl:hover{
+	border-color:#F70800;
+	border-width: 2px;
+}
+.now-food-con dl dt{
+	width:298px;
+	height:298px;
+}
+.now-food-con dl dt img{
+	width:100%;
+	height:100%;
+}
+.now-food-con dl p:nth-of-type(1){
+	padding:24px 0 70px 10px;
+}
+.now-food-con dl p:nth-of-type(1) a{
+	font-size:16px;
+	color:#222;
+}
+.now-food-con dl p:nth-of-type(1) a:hover{
+	text-decoration: underline;
+}
+.now-food-con dl p:nth-of-type(2) em{
+	font-size:16px;
+	color:#222;
+	padding:0 10px;
+}
+.now-food-con dl p:nth-of-type(2) i{
+	color:#222;
+	font-size:20px;
+}
+.now-food-con dl p:nth-of-type(2) b{
+	float:right;
+	font-size:12px;
+	color:#666;
+}
+.now-food-con dl p:nth-of-type(2) b span{
+	color:#F70800;
+}
+

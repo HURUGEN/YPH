@@ -1,0 +1,238 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,,input,option,textarea,hr,ol,ul,dl,dd,td{
+    margin:0;padding:0;
+}
+img{border:none;display:block}
+a{text-decoration:none}
+li{list-style:none}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal}
+em,i{font-style:normal}
+body{background:#f6f6f6;font:12px "微软雅黑";}
+input,a{outline:none}
+textarea{resize:none}
+
+
+//顶部
+#head-top{
+    li:hover a{
+        color: #f70800;
+    }
+    width:100%;
+    background:#f6f6f6;
+    height:33px;
+    border-bottom:1px solid #ddd;
+    line-height:34px;
+    dl{
+        
+        dt{
+            width:90px;
+            height:90px;
+            background: url(../images/ewm90X90.jpg);
+            position:absolute;
+            top:10px;
+            left:10px;
+        }
+        dd{
+            color:#f70800;
+            position: absolute;
+            font-size: 14px;
+            left:21px;
+            top:100px;
+            
+        }
+        span{
+            border-bottom: 8px solid #fff;
+            border-right:8px solid transparent;
+            border-left:8px solid transparent;
+            position:absolute;
+            left:50px;
+            top:-8px;
+        }
+        left:1107px;
+        z-index: 100;
+        box-shadow: 0 -1px 1px #ccc;
+        top:0px;
+        background:#fff;
+        position:relative;
+        text-align: center;
+        width:112px;
+        height:142px;
+    }
+}
+.head-d{
+    overflow: hidden;
+    width:1000px;
+    position: relative;
+    margin:0 auto;
+    span{
+        background: url(../images/images/icons.png) no-repeat left -98px top -193px;
+        float:left;
+        padding-left:18px;
+    }
+}
+.auto-ann{
+    position: absolute;
+    p{
+        width:190px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    a{
+        color:#666;
+    }
+}
+#head-top ul{
+    float:right;
+    li{
+        
+        float:left;
+        a{
+            padding:0 15px 0 11px;
+            border-left:1px solid #666;
+            color:#666;
+        }
+    }
+    li:first-child{
+        a{
+            border-left:none;
+        }
+    }
+    li:last-child{
+        a{
+            background:url(../images/phone.png) no-repeat left 13px center;
+            padding-left:27px;
+            padding-right:0;
+        }
+    }
+}
+//头部logo栏
+header{
+    width:100%;
+    height:105px;
+    background:#fff;
+    .head-c{
+        position: relative;
+        width:1000px;
+        height:79px;
+        margin:0 auto;
+        padding-top:26px;
+        h1{
+            float:left;
+            line-height:105px;
+        }
+        section{
+            float:left;
+            margin-left:80px;
+            display: flex;
+            input:nth-child(1){
+                width:329px;
+                height:32px;
+                border:2px solid #f70801;
+                line-height:32px;
+                padding-left:12px;
+                color:#999;
+            }
+            input:nth-child(2){
+                width:75px;
+                height:36px;
+                background:#f70801;
+                color:#fff;
+                border:2px solid #f70801;
+            }
+        }
+        .shopcar{
+            .shopnum{
+                width:22px;
+                height:13px;
+                background: #F70800;
+                color: #fff;
+                border-radius:6px 6px 6px 6px;
+                text-align: center;
+                line-height: 13px;
+                position: absolute;
+                left: 80px;
+                top:-6px;
+            }
+            display: flex;
+            position: absolute;
+            z-index: 30;
+            right:0;
+            top:26px;
+            float:right;
+            width:138px;
+            height:30px;
+            border:1px solid #ddd;
+            line-height:30px;
+            background:url(../images/gwc.png) no-repeat left 14px center;
+            a:hover{
+                color:#F70800;
+            }
+            a{
+                display: block;
+                margin-left:39px;
+                color:#222;
+            }
+            span{
+                display: block;
+                margin-left:14px;
+            }
+        }
+        .shopcontent{
+            display: flex;
+            position: absolute;
+            width:288px;
+            height:82px;
+            background:#fff;
+            text-align: center;
+            line-height:82px;
+            justify-content: center;
+            left:-151px;
+            box-shadow: 0 -1px 1px #ccc;
+            border:1px solid #f1f1f1;
+            top:30px;
+            z-index: -1;
+            display: none;
+        }
+    }
+}
+/*导航栏*/
+nav{
+    width:100%;
+    height:40px;
+    background: #F70800;
+    .puc-nav{
+        width:1000px;
+        height:40px;
+        margin: 0 auto;
+        line-height: 40px;
+        ul{
+            line-height: 40px;
+            float:left;
+            .active-li{
+                background: #bc0600;
+            }
+            li:nth-of-type(2){
+                background:url(../images/images/icon-tv.png) no-repeat left center;
+                padding-left:45px;
+            }
+            li{
+                &:hover{
+                    background-color:#bc3300;
+                }
+                height:40px;
+                float:left;
+                padding:0 20px 0 20px;
+                a{
+                    font-size: 14px;
+                    color:#fff;
+                    font-weight: bold;
+                }
+            }
+        }
+        .menu-bar{
+            color:#fff;
+            font-size: 14px;
+            float:right;
+        }
+    }
+}
